@@ -1,0 +1,9 @@
+<section>
+    <!-- website logo -->
+    <a class="image"><img src="../../../../../assets/images/quiz-logo-thumbnail.png" alt="Website Logo"></a>
+    <div class="navigation-links">
+        <ng-container *ngFor="let link of links">
+            <button class="link" (click)="onLinkClick(link)">{{link.name}}</button>
+        </ng-container>
+    </div>
+</section>

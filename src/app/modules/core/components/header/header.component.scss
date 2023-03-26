@@ -1,0 +1,39 @@
+section {
+    display: flex;
+    justify-content: space-between;
+
+    height: 100%;
+    padding: 0px 10px;
+    background-color: rgba(124, 212, 212, 0.5);
+}
+
+section a.image {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+section img {
+    width: 70px;
+    height: 60px;
+    margin: auto;
+    background-color: transparent;
+}
+
+section.navigation-links {
+    height: 100%;
+}
+
+section button.link {
+    // margin-left: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    width: 120px;
+
+    &:hover {
+        background-color: rgba(8, 188, 188, 0.5);
+        transition-duration: 1000ms;
+    }
+}
